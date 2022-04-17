@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d3cc04abd6.js" crossorigin="anonymous"></script>
+    <title>ADPP</title>
+</head>
+
+<body>
+    <nav class="navigation" id="nav">
+        <div class="logo__icon--wrapper">
+            <a href="#">
+                <img src="./assets/balloon.png" alt="">
+                <p>ADPP</p>
+            </a>
+        </div>
+        <ul class="list__section--items">
+            <li class="list__section--item">
+                <a href="#">Pocetna</a>
+            </li>
+            <li class="list__section--item">
+                <a href="#cards">Kartice</a>
+            </li>
+        </ul>
+    </nav>
+    <br /><br />
+    <header id="header">
+        <div class="row">
+            <div class="header__sections--wrapper">
+                <div class="header__section">
+                    <br />
+                    <h1 class="header__section--title">Šta rešava ova aplikacija?</h1>
+                    <p class="header__section--para">
+                        Kako bismo uradili ovu web aplikaciju a da ona imaju svoju stvarnu upotrebnu svrhu, morali smo
+                        da se najpre elementarno upoznamo sa specifičnostima dece sa smetnjama u razvoju...
+                    </p>
+                    <p class="header__section--para">
+                        <b>Za njih je karakteristično sledeće:</b>
+                        <br> 1. Najbolje usvajaju preko socijalnih priča izraženih u slikama.
+                        <br> 2. Slike treba da budu sa što manje detalja i boja jer im to odvlači ionako
+                        rasutu pažnju.
+                        <br> 3. Od izuzetnog značaja im je jasna i dosledna primena jednom usvojene
+                        strukture dana.
+                        <br> 4. Imaju burne reakcije na SVAKU promenu rasporeda/ rutina im je važna.
+                        <br> 5. Ovaj metod se u defektologiji zove PECS METOD.
+                        <br> 6. Naloge zadavati vrlo kratko u najviše 2 reči: Ustani , Obuci se, Operi zube,
+                        Uzmi torbu, Udji u
+                        autobus.<br /><br />
+                        <b>Ishodi/Ciljevi aplikacije:</b><br />
+                        1. Olaksati roditeljima da osobu/dete sa autizomom uvedu u dnevnu rutinu<br />
+                        2. Kroz vizuelnu podrsku olaksati osobi/detetu da savlada dnevne aktivnosti<br />
+                        3. Povecanje sigurnosti osobe/deteta u obavljanju određene aktivnosti<br />
+                        4. Postepeno smanjivanje vremena osobi/detetu koje je potrebeno za izvrsavanje aktivnosti<br />
+                        5. Osamostaljivanje osobe/deteta pri izvrsavanju ovih aktivnosti<br />
+                    </p>
+
+                </div>
+                <figure class="header__section--img-wrapper">
+                    <img class="header__section--img" src="./assets/undraw_awesome_rlvy.svg" alt="">
+                </figure>
+            </div>
+        </div>
+    </header>
+    <a class="back__btn" href="#nav">
+        <i class="fas fa-angle-left back__icon"></i>
+    </a>
+    <section id="cards">
+        <div class="background">
+            <div class="row">
+                <div class="cards__title">
+                    <h1>Kartice</h1>
+                </div>
+                <div class="cards__wrapper">
+                    <div class="card">
+                        <figure class="card__img--wrapper">
+                            <img class="card__img" src="./assets/budjenje.png">
+                        </figure>
+                        <div class="card__title">
+                            <h3>Budjenje</h3>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <figure class="card__img--wrapper">
+                            <img class="card__img" src="./assets/zubi.png" alt="">
+                        </figure>
+                        <div class="card__title">
+                            <h3>Pranje Zuba</h3>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <figure class="card__img--wrapper">
+                            <img class="card__img" src="./assets/igranje.png" alt="">
+                        </figure>
+                        <div class="card__title">
+                            <h3>Igranje</h3>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <figure class="card__img--wrapper">
+                            <img class="card__img" src="./assets/dorucak.png" alt="">
+                        </figure>
+                        <div class="card__title">
+                            <h3>Dorucak</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards__button">
+                    <a href="kartice.html">Prikaži sve kartice</a>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
+                <path fill="#ebebeb" fill-opacity="1"
+                      d="M0,32L120,48C240,64,480,96,720,96C960,96,1200,64,1320,48L1440,32L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z">
+                </path>
+            </svg>
+        </div>
+    </section>
+    <section id="start">
+        <div class="start__wrapper">
+            <div class="start__wrapper--btn">
+                <a href="zapocni.html" class="c-button c-button--gooey">
+                    Započni
+                    <div class="c-button__blobs">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </a>
+                <svg style="display: block; height: 0; width: 0;" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <filter id="goo">
+                            <feGaussianBlur result="blur" stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
+                            <feColorMatrix result="goo" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" mode="matrix" in="blur"></feColorMatrix>
+                            <feBlend in2="goo" in="SourceGraphic"></feBlend>
+                        </filter>
+                    </defs>
+                </svg>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
