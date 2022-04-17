@@ -48,8 +48,8 @@ appear in the application via images, text, sound and notification.
 
 ![App Screenshot](https://raw.githubusercontent.com/pavlemmm/ADPP/master/Tutorijal_u_slikama/Slika3.png)
 
-Nakon unosa svih podataka na web sajtu i klikom na dugme GENERIŠI, roditelj dobija jedinstveni cetvorocifreni ID
-pomocu koga ce se povezati sa desktop aplikacijom.
+After entering all the data on the website and clicking on the GENERATE button, the parent gets a unique four-digit ID
+with which to connect to the desktop application.
 
 ![App Screenshot](https://raw.githubusercontent.com/pavlemmm/ADPP/master/Tutorijal_u_slikama/Slika4.png)
 
